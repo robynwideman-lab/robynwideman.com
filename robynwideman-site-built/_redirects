@@ -1,0 +1,7 @@
+# Old Weebly URLs → new pages
+/about.html            /about/                      301
+/contact.html          /contact/                    301
+/newsletter.html       /free/                       301
+/darkthornacademy.html /series/darkthorn-academy/   301
+/apocalypse.html       /books/                      301
+/otherbooks.html       /books/                      301

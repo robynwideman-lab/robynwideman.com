@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" class="lp">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Darkthorn Academy — start here</title>
+<meta name="description" content="A murdered grandfather. A dying promise. A school that eats first-years alive.">
+<link rel="canonical" href="https://www.robynwideman.com/go/darkthorn-academy/">
+<meta property="og:title" content="Darkthorn Academy — start here"><meta property="og:description" content="A murdered grandfather. A dying promise. A school that eats first-years alive."><meta property="og:url" content="https://www.robynwideman.com/go/darkthorn-academy/"><meta property="og:site_name" content="Robyn Wideman">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:wght@700&family=IBM+Plex+Mono:wght@400;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<meta name="robots" content="noindex">
+<style>
+:root{
+  --bg:#f4efe3;--bg2:#fbf8f1;--ink:#1b2130;--muted:#5c6270;--line:#d9d2c2;
+  --accent:#b8731d;--accent-ink:#1b2130;--accent2:#2f7a6d;--shadow:0 12px 30px rgba(27,33,48,.18);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#12161f;--bg2:#1a2030;--ink:#ece5d3;--muted:#9aa0b0;--line:#2a3142;
+  --accent:#e0973b;--accent-ink:#12161f;--accent2:#5fb3a2;--shadow:0 16px 40px rgba(0,0,0,.45);
+  color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#12161f;--bg2:#1a2030;--ink:#ece5d3;--muted:#9aa0b0;--line:#2a3142;
+  --accent:#e0973b;--accent-ink:#12161f;--accent2:#5fb3a2;--shadow:0 16px 40px rgba(0,0,0,.45);
+  color-scheme:dark;}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Serif 4",Georgia,"Times New Roman",serif;font-size:18px;line-height:1.6;padding-inline:clamp(16px,4vw,40px)}
+a{color:inherit}
+img{max-width:100%;display:block}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;line-height:1.05;margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1{font-size:clamp(2.3rem,5.2vw,4rem)}
+h2{font-size:clamp(1.9rem,4vw,3rem)}
+h3{font-size:1.5rem}
+p{margin:0;max-width:62ch}
+.eyebrow{font-family:Cinzel,"Cormorant Garamond",serif;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.wrap{max-width:1180px;margin-inline:auto}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font-family:Cinzel,serif;font-size:1.05rem;letter-spacing:.16em;text-transform:uppercase;text-decoration:none}
+.nav ul{list-style:none;margin:0;padding:0;display:flex;gap:6px 22px;flex-wrap:wrap;font-size:.95rem}
+.nav a{text-decoration:none;color:var(--muted)} .nav a:hover,.nav a[aria-current]{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:.5em;padding:.8em 1.4em;border-radius:6px;text-decoration:none;font-weight:600;font-size:1rem;border:1px solid transparent;line-height:1.1}
+.btn-primary{background:var(--accent);color:var(--accent-ink)}
+.btn-ghost{border-color:var(--line);color:var(--ink)}
+.btn:focus-visible,a:focus-visible{outline:2px solid var(--accent2);outline-offset:3px}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-block:clamp(40px,7vw,90px)}
+.hero p.lede{font-size:1.25rem;color:var(--muted);margin-top:18px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.stack{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;transform:rotate(-2deg)}
+.stack img{border-radius:4px;box-shadow:var(--shadow);aspect-ratio:2/3;object-fit:cover;width:100%}
+.stack img:nth-child(2){transform:translateY(-18px)}
+section{padding-block:clamp(36px,6vw,72px);border-top:1px solid var(--line)}
+.shelf-head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:26px}
+.shelf-head p{color:var(--muted);margin-top:8px}
+.shelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:22px 16px}
+.book{display:flex;flex-direction:column;gap:8px;text-decoration:none}
+.book img{aspect-ratio:2/3;object-fit:cover;width:100%;border-radius:3px;box-shadow:var(--shadow);background:var(--bg2)}
+.book .n{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.72rem;color:var(--muted);letter-spacing:.06em}
+.book .t{font-weight:600;line-height:1.25;font-size:.98rem}
+.book.first img{outline:2px solid var(--accent);outline-offset:3px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.free{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}
+.free article{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:center}
+.free img{aspect-ratio:2/3;object-fit:cover;border-radius:3px;box-shadow:var(--shadow)}
+.free .t{font-family:"Cormorant Garamond",serif;font-size:1.5rem;font-weight:700;line-height:1.1}
+.free p{color:var(--muted);font-size:.95rem;margin-top:6px}
+.sys{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.82rem;border:1px solid var(--accent2);color:var(--accent2);padding:12px 14px;border-radius:4px;max-width:34ch;line-height:1.5}
+.sys b{color:var(--ink);font-weight:600}
+footer{border-top:1px solid var(--line);padding-block:36px;color:var(--muted);font-size:.9rem;display:grid;gap:14px}
+footer .row{display:flex;gap:8px 24px;flex-wrap:wrap}
+footer a{color:var(--muted)}
+.field{display:grid;gap:6px;margin-bottom:16px}
+.field label{font-size:.9rem;color:var(--muted)}
+input,textarea{font:inherit;padding:.7em .8em;border:1px solid var(--line);border-radius:6px;background:var(--bg2);color:var(--ink);width:100%}
+textarea{min-height:160px}
+/* landing pages */
+.lp body{padding-inline:clamp(16px,4vw,40px)}
+.lp-hero{display:grid;grid-template-columns:minmax(220px,340px) 1fr;gap:clamp(24px,5vw,64px);align-items:center;padding-block:clamp(28px,6vw,72px)}
+.lp-hero img{aspect-ratio:2/3;object-fit:cover;border-radius:4px;box-shadow:var(--shadow);width:100%}
+.lp-hero h1{font-size:clamp(2rem,5vw,3.8rem)}
+.lp-hero .hook{font-size:1.25rem;margin-top:16px}
+.lp-hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px;align-items:center}
+.lp-hero .rating{color:var(--muted);font-size:.92rem;margin-top:14px}
+.bullets{list-style:none;padding:0;margin:0;display:grid;gap:12px;max-width:60ch}
+.bullets li{padding-left:26px;position:relative}
+.bullets li::before{content:"";position:absolute;left:0;top:.55em;width:12px;height:12px;background:var(--accent);clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}
+.lp .shelf{grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}
+.sticky-cta{position:sticky;bottom:0;background:var(--bg2);border-top:1px solid var(--line);padding:12px clamp(16px,4vw,40px);display:flex;justify-content:space-between;align-items:center;gap:12px;margin-inline:calc(-1*clamp(16px,4vw,40px))}
+.sticky-cta span{font-weight:600}
+@media (max-width:760px){
+  .hero,.two,.free,.lp-hero{grid-template-columns:1fr}
+  .stack{transform:none}
+  .lp-hero img{max-width:260px}
+  .free article{grid-template-columns:96px 1fr}
+  .sticky-cta span{display:none}
+}
+@media (prefers-reduced-motion:no-preference){.book img{transition:transform .2s}.book:hover img{transform:translateY(-4px)}}
+</style>
+</head>
+<body>
+
+<main class="wrap">
+
+<div class="lp-hero">
+  <img src="/assets/covers/darkthorn-academy-1-menacing-misfits.jpg" alt="Menacing Misfits cover" width="400" height="600">
+  <div>
+    <div class="eyebrow">Academy fantasy · Gamelit · Ages 13+</div>
+    <h1>A murdered grandfather. A dying promise. A school that eats first-years alive.</h1>
+    <p class="hook">If Harry Potter lived in Middle Earth and had to loot dungeons to pay his school fees.</p>
+    <div class="cta"><a class="btn btn-primary" href="https://www.amazon.com/dp/B081TSMKDB" rel="nofollow">Read Menacing Misfits on Amazon</a><a class="btn btn-ghost" href="/free/">Get a free story first</a></div>
+    <p class="rating">Free in Kindle Unlimited · 4.48 average across 12,500+ Goodreads ratings</p>
+  </div>
+</div>
+<section>
+  <div class="two">
+    <div><div class="eyebrow">Why readers stay</div><h2 style="margin-bottom:18px">What you're signing up for</h2><ul class="bullets"><li>A slightly overpowered hero who still has to earn every level</li><li>A dragon companion and a team of misfits worth rooting for</li><li>Dungeons, loot and mana techniques inspired by Skyrim, Diablo 2 and Fallout</li><li>Nine books, complete series — no waiting on cliffhangers</li></ul></div>
+    <div><div class="eyebrow">The story</div><p style="margin-top:12px">When Jack&#x27;s grandfather is murdered, his dying words make Jack promise to attend Darkthorn Academy. Surviving it means making alliances, learning to harness magic, and facing enemies both living and dead. Nine books of dungeons, dragons, misfit friends and an empire that wants them gone.</p><p style="margin-top:14px;color:var(--muted);font-size:.95rem">Readers of Quest Academy, Iron Prince and Mage Errant.</p></div>
+  </div>
+</section>
+<section>
+  <div class="shelf-head"><div><div class="eyebrow">The whole run</div><h2>9 books, in order</h2></div><a class="btn btn-ghost" href="https://amzn.to/3xWZKWr" rel="nofollow">Series page on Amazon</a></div>
+  <div class="shelf"><a class="book first" href="https://www.amazon.com/dp/B081TSMKDB" rel="nofollow"><img src="/assets/covers/darkthorn-academy-1-menacing-misfits.jpg" alt="Menacing Misfits cover" loading="lazy" width="300" height="450"><span class="n">Book 1</span><span class="t">Menacing Misfits</span></a><a class="book" href="https://www.amazon.com/s?k=Scavengers+Robyn+Wideman" rel="nofollow"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598363717i/55119680._SY475_.jpg" alt="Scavengers cover" loading="lazy" width="300" height="450"><span class="n">Book 2</span><span class="t">Scavengers</span></a><a class="book" href="https://www.amazon.com/s?k=Settlers+Robyn+Wideman" rel="nofollow"><img src="https://www.robynwideman.com/uploads/5/0/3/1/50319333/editor/settlers-2021.jpg" alt="Settlers cover" loading="lazy" width="300" height="450"><span class="n">Book 3</span><span class="t">Settlers</span></a><a class="book" href="https://www.amazon.com/s?k=Isle+of+the+Undead+Robyn+Wideman" rel="nofollow"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626745146i/58592476._SY475_.jpg" alt="Isle of the Undead cover" loading="lazy" width="300" height="450"><span class="n">Book 4</span><span class="t">Isle of the Undead</span></a><a class="book" href="https://www.amazon.com/dp/B09MHNJZQN" rel="nofollow"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638830267i/59765968._SY475_.jpg" alt="Rebels cover" loading="lazy" width="300" height="450"><span class="n">Book 5</span><span class="t">Rebels</span></a><a class="book" href="https://www.amazon.com/s?k=The+Missing+Orc+Robyn+Wideman" rel="nofollow"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655557053i/61311142._SY475_.jpg" alt="The Missing Orc cover" loading="lazy" width="300" height="450"><span class="n">Book 6</span><span class="t">The Missing Orc</span></a><a class="book" href="https://www.amazon.com/s?k=Freedom+Robyn+Wideman" rel="nofollow"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680247765i/124929020._SY475_.jpg" alt="Freedom cover" loading="lazy" width="300" height="450"><span class="n">Book 7</span><span class="t">Freedom</span></a><a class="book" href="https://www.amazon.com/s?k=Bad+Blood+Robyn+Wideman" rel="nofollow"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1706716804i/206341487._SY475_.jpg" alt="Bad Blood cover" loading="lazy" width="300" height="450"><span class="n">Book 8</span><span class="t">Bad Blood</span></a><a class="book" href="https://www.amazon.com/s?k=An+Ancient+Quest+Robyn+Wideman" rel="nofollow"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1765573272i/245147213._SY475_.jpg" alt="An Ancient Quest cover" loading="lazy" width="300" height="450"><span class="n">Book 9</span><span class="t">An Ancient Quest</span></a></div>
+</section>
+<div class="sticky-cta"><span>Darkthorn Academy · Book 1</span><a class="btn btn-primary" href="https://www.amazon.com/dp/B081TSMKDB" rel="nofollow">Read on Amazon</a></div>
+
+</main>
+
+<footer class="wrap">
+  <div class="row"><span>© 2015–2026 Robyn Wideman · Magicblood Media</span></div>
+  <div class="row"><span>More worlds: <a href="https://www.robynwolfe.com">Robyn Wolfe</a> (epic romantasy) · <a href="https://www.moonlitrealms.com">Moonlit Realms</a> (all the fantasy worlds)</span></div>
+  <div class="row"><a href="https://www.amazon.com/stores/author/B00X4SBL7Q">Amazon author page</a><a href="https://www.facebook.com/pages/Robyn-Wideman/802890743138069">Facebook</a><a href="/free/">Free stories</a><a href="/contact/">Contact</a></div>
+  <div class="row"><span>Robyn Wideman is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.</span></div>
+</footer>
+</body>
+</html>

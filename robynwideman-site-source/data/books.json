@@ -1,0 +1,271 @@
+{
+  "site": {
+    "name": "Robyn Wideman",
+    "domain": "https://www.robynwideman.com",
+    "tagline": "Epic fantasy and LitRPG for readers who want to level up.",
+    "newsletter_url": "https://landing.mailerlite.com/webforms/landing/y6m7d3",
+    "newsletter_form_id": "4564180:y6m7d3",
+    "formspree_id": "REPLACE_WITH_FORMSPREE_ID",
+    "amazon_author": "https://www.amazon.com/stores/author/B00X4SBL7Q",
+    "facebook": "https://www.facebook.com/pages/Robyn-Wideman/802890743138069",
+    "sister_sites": [
+      {
+        "name": "Robyn Wolfe",
+        "url": "https://www.robynwolfe.com",
+        "note": "epic romantasy"
+      },
+      {
+        "name": "Moonlit Realms",
+        "url": "https://www.moonlitrealms.com",
+        "note": "all the fantasy worlds"
+      }
+    ],
+    "free_reads": [
+      {
+        "title": "Soron's Quest",
+        "series": "Stoneblood Saga prequel novella",
+        "url": "/free/",
+        "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440626966i/25834525._SY475_.jpg",
+        "hook": "Soron is tired of combat. Growing up in the harsh world of Northern Solotine, he has been fighting his entire life.",
+        "file": "sorons-quest"
+      },
+      {
+        "title": "Darkthorn Trials",
+        "series": "Darkthorn Academy short story",
+        "url": "/free/",
+        "cover": "/assets/covers/darkthorn-trials.jpg",
+        "hook": "Before he joined the Misfits at Darkthorn Academy, Stannerios lived with his orc family. His life was not simple.",
+        "file": "darkthorn-trials"
+      }
+    ],
+    "download_token": "M2Cz1O_dwb5q"
+  },
+  "series": [
+    {
+      "slug": "darkthorn-academy",
+      "name": "Darkthorn Academy",
+      "eyebrow": "Academy fantasy · Gamelit · Ages 13+",
+      "hook": "If Harry Potter lived in Middle Earth and had to loot dungeons to pay his school fees.",
+      "pitch": "When Jack's grandfather is murdered, his dying words make Jack promise to attend Darkthorn Academy. Surviving it means making alliances, learning to harness magic, and facing enemies both living and dead. Nine books of dungeons, dragons, misfit friends and an empire that wants them gone.",
+      "readers_like": "Readers of Quest Academy, Iron Prince and Mage Errant",
+      "rating": "4.48 average across 12,500+ Goodreads ratings",
+      "amazon_series": "https://amzn.to/3xWZKWr",
+      "landing_headline": "A murdered grandfather. A dying promise. A school that eats first-years alive.",
+      "landing_bullets": [
+        "A slightly overpowered hero who still has to earn every level",
+        "A dragon companion and a team of misfits worth rooting for",
+        "Dungeons, loot and mana techniques inspired by Skyrim, Diablo 2 and Fallout",
+        "Nine books, complete series — no waiting on cliffhangers"
+      ],
+      "books": [
+        {
+          "n": "1",
+          "title": "Menacing Misfits",
+          "asin": "B081TSMKDB",
+          "cover": "/assets/covers/darkthorn-academy-1-menacing-misfits.jpg",
+          "tag": "Jack's first year begins with a funeral and a promise."
+        },
+        {
+          "n": "2",
+          "title": "Scavengers",
+          "asin": "",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598363717i/55119680._SY475_.jpg",
+          "tag": "Second year. Bigger dungeons. Worse enemies."
+        },
+        {
+          "n": "3",
+          "title": "Settlers",
+          "asin": "",
+          "cover": "https://www.robynwideman.com/uploads/5/0/3/1/50319333/editor/settlers-2021.jpg",
+          "tag": "The Misfits flee to the Ancient Lands to rebuild the Academy."
+        },
+        {
+          "n": "4",
+          "title": "Isle of the Undead",
+          "asin": "",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626745146i/58592476._SY475_.jpg",
+          "tag": "The hero becomes the hunted."
+        },
+        {
+          "n": "5",
+          "title": "Rebels",
+          "asin": "B09MHNJZQN",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638830267i/59765968._SY475_.jpg",
+          "tag": "When forced into a corner, there is only one thing to do. Rebel."
+        },
+        {
+          "n": "6",
+          "title": "The Missing Orc",
+          "asin": "",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655557053i/61311142._SY475_.jpg",
+          "tag": "There are no places we won't go to find our friend."
+        },
+        {
+          "n": "7",
+          "title": "Freedom",
+          "asin": "",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680247765i/124929020._SY475_.jpg",
+          "tag": "Freedom or death."
+        },
+        {
+          "n": "8",
+          "title": "Bad Blood",
+          "asin": "",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1706716804i/206341487._SY475_.jpg",
+          "tag": "Home is where the heart is. Jack has soul damage."
+        },
+        {
+          "n": "9",
+          "title": "An Ancient Quest",
+          "asin": "",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1765573272i/245147213._SY475_.jpg",
+          "tag": "A new world. An ancient enemy. A power limit broken."
+        }
+      ]
+    },
+    {
+      "slug": "new-realm-online",
+      "name": "New Realm Online",
+      "eyebrow": "LitRPG · VRMMO · Community building",
+      "hook": "Leveling, dungeons, crafting, kingdom building, and terrifying killer bunnies.",
+      "pitch": "Ryan Rosa has had a run of bad luck. Then he re-rolls into New Realm Online and starts building something special: a guild, a town, and eventually an empire. Classic LitRPG with stats you can follow, a cast you'll want at your table, and an audiobook series narrated by MacLeod Andrews.",
+      "readers_like": "Readers of Life Reset, Dungeon Crawler Carl and He Who Fights with Monsters",
+      "rating": "4.5 average across 5,000+ Goodreads ratings",
+      "amazon_series": "https://www.amazon.com/dp/B08FJ88VP2",
+      "landing_headline": "Bad luck in real life. A fresh roll in the New Realm.",
+      "landing_bullets": [
+        "Real LitRPG progression: levels, skills, crafting, dungeon loot",
+        "From one broke player to a guild, a town, and an empire",
+        "A snarky, loyal cast readers keep coming back for",
+        "Six books complete, plus audio from Podium narrated by MacLeod Andrews"
+      ],
+      "books": [
+        {
+          "n": "1",
+          "title": "RE-ROLL",
+          "asin": "B08CRLQZYW",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599008499i/55208334._SY475_.jpg",
+          "tag": "Ryan Rosa has had a run of bad luck. Time to re-roll."
+        },
+        {
+          "n": "1.5",
+          "title": "Goon Squad",
+          "asin": "B091D6Q93F",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620858850i/58027188._SY475_.jpg",
+          "tag": "Three unlikely heroes make their way in the New Realm."
+        },
+        {
+          "n": "2",
+          "title": "Broken Bones",
+          "asin": "B09RGVFQR6",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647341885i/60622740._SY475_.jpg",
+          "tag": "War is coming. Ryan has built something special."
+        },
+        {
+          "n": "3",
+          "title": "Empire of the Rose",
+          "asin": "",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1661942608i/62202963._SY475_.jpg",
+          "tag": "Liberty lives, despite the best efforts of their enemies."
+        },
+        {
+          "n": "4",
+          "title": "Heroic Deeds",
+          "asin": "B0C77SJ84Z",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686118203i/174320720._SY475_.jpg",
+          "tag": "Winner takes all."
+        },
+        {
+          "n": "5",
+          "title": "Legendary Quest",
+          "asin": "B0C7M61316",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686394475i/175966202._SY475_.jpg",
+          "tag": "The quest to end all quests."
+        }
+      ]
+    },
+    {
+      "slug": "stoneblood-saga",
+      "name": "Stoneblood Saga",
+      "eyebrow": "Epic fantasy · Progression · Coming-of-age",
+      "hook": "They tried to hide him. They tried to protect him. Nathan Stoneblood was never going to stay hidden.",
+      "pitch": "A boy raised in a quiet village, a bloodline the powerful would kill to control, and a kingdom sliding toward war. Nathan Stoneblood gathers friends, masters magic he was never meant to have, and builds Elderwood from a refuge into a power. Eight books of classic sword-and-sorcery with a progression backbone.",
+      "readers_like": "Readers of Riyria, The Wandering Inn (without the word count) and Cradle",
+      "rating": "4.3 average across 6,000+ Goodreads ratings",
+      "amazon_series": "https://www.amazon.com/dp/B01N68EFNO",
+      "landing_headline": "Hidden from the world. Hunted by a kingdom. Stronger every chapter.",
+      "landing_bullets": [
+        "A hero who grows from village boy to the power behind Elderwood",
+        "Friends, mentors and enemies who matter across all eight books",
+        "Magic learned the hard way, with real costs",
+        "Complete series, plus the free prequel novella Soron's Quest"
+      ],
+      "books": [
+        {
+          "n": "0.5",
+          "title": "Soron's Quest",
+          "asin": "",
+          "free_url": "/free/",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440626966i/25834525._SY475_.jpg",
+          "tag": "Free prequel novella. A young warrior must find his way."
+        },
+        {
+          "n": "1",
+          "title": "Son of Soron",
+          "asin": "B0B7691TK2",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438802762i/25841380._SY475_.jpg",
+          "tag": "They tried to hide him, to protect him from the danger of his bloodline."
+        },
+        {
+          "n": "2",
+          "title": "The Missing Mage",
+          "asin": "",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437952301i/25841389._SY475_.jpg",
+          "tag": "Nathan is reunited with his friends, and a mage has gone missing."
+        },
+        {
+          "n": "3",
+          "title": "Siege of Pailtar",
+          "asin": "B017TTLTOA",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447737711i/27844303._SY475_.jpg",
+          "tag": "War is coming."
+        },
+        {
+          "n": "4",
+          "title": "Dark Tidings",
+          "asin": "",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481757168i/33388768._SY475_.jpg",
+          "tag": "The rescue is over. The reckoning begins."
+        },
+        {
+          "n": "5",
+          "title": "Treachery in Tarnstead",
+          "asin": "",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517528537i/38324935._SY475_.jpg",
+          "tag": "With Count Mavane's help, Nathan walks into a city of knives."
+        },
+        {
+          "n": "6",
+          "title": "The Mad King",
+          "asin": "",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545145388i/43262525._SY475_.jpg",
+          "tag": "Tarnstead in chaos. A king losing his mind."
+        },
+        {
+          "n": "6.5",
+          "title": "Necro Mage",
+          "asin": "B082X4B2PK",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576903162i/49584769._SY475_.jpg",
+          "tag": "Death isn't always forever. A Stoneblood Saga novella."
+        },
+        {
+          "n": "7",
+          "title": "Legacy",
+          "asin": "",
+          "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593931687i/54395670._SY475_.jpg",
+          "tag": "As Elderwood grows in strength, so do its enemies."
+        }
+      ]
+    }
+  ]
+}
